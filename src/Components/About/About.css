@@ -1,0 +1,254 @@
+.aboutMain{
+    position:relative;
+    width: 100%;
+    height: 900px;
+    /* border: 1px solid black; */
+    
+    
+}
+
+.aboutBackImg{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    /* border: 4px solid yellow; */
+}
+
+.aboutInsideImg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    z-index: -999;
+}
+
+.aboutOutImage{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -9;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.aboutViewButton{
+    position: relative;
+    width: 8.375rem; 
+    margin: 0 auto;
+    margin-top: 3rem;
+  
+    button{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        text-align: center;  cursor: pointer;
+        border: 2px solid #75CCEB;
+        width: 100%;
+        border-radius: 1.125rem;
+        padding: .8rem 1.8rem;
+        outline: none;
+        color:#6FB4FF;  
+        background: #ffff;
+    }
+}
+
+
+.aboutFlexDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 46.5rem;
+    /* border: 2px solid black; */
+    margin-top: 1rem;
+
+}
+
+.aboutLeftDiv{
+    width: 50%;
+    height: 100%;
+    /* border: 2px solid rgb(167, 19, 19); */
+}
+
+.leftInfo{
+    width: 40.875rem;
+    height: 27.75rem;
+    /* border:  1px solid black; */
+    float: right;
+    margin-top: 9.5rem;
+    h1{
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 65px;
+        text-align: right;
+        color:#31546D;
+      
+    }
+    h3{
+        font-size: 4rem;
+        font-weight: 600;
+        line-height: 65px;
+        color:#31546D;
+        text-align: right;
+        margin-bottom: 2rem;
+    }
+    .leftPrice{
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        gap: 2rem;
+        p{
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 30px;
+            text-decoration: line-through;
+             color: #41A0B7;
+        }
+        h2{
+            font-size: 70px;
+            font-weight: 600;
+            line-height: 89.04px;
+            color: #E35B3E;
+
+        }
+    }
+    .leftDescri{
+        width: 25rem;
+        float: right    ;
+        p{
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: justify;
+        color: #31546D;
+     }
+     button{
+        float: right;
+        margin-top: 2.47rem;
+        padding: 1rem 3.5rem;
+        background:  #75CCEB ;
+        color: #ffff;
+        border: none;
+        outline: none;
+        font-size: 1rem;
+        border-radius: 1.125rem;
+
+    }
+    }
+   
+}
+
+
+.aboutRightDiv{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    /* border: 2px solid rgb(70, 30, 30); */
+}
+
+.aboutThirdDiv{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background:#ffffff;
+    border-radius:50%;
+    opacity: .2;
+    z-index: -99;;
+}
+
+.aboutSecondDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35.625rem;
+    height: 35.625rem;
+    background:#ffffff;
+    border-radius: 50%;
+    box-shadow: 0px 4px 50px 0px #788F9C40;
+
+}
+
+.aboutfirstDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22.75rem;
+    height: 22.75rem;
+    background:#ffffff;
+    border-radius: 50%;
+    box-shadow: 0px 4px 50px 0px #788F9C40;
+
+}
+
+.aboutShellImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15.5rem;
+    height: 15.5rem;
+    background:#ffffff;
+    border-radius: 50%;
+    
+    img{
+        width: 100%;
+        height: 100%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.aboutFooter{
+    width: 100%;
+    height: 16.813rem;
+    background: #0A294DCC;
+}

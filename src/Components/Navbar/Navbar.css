@@ -1,0 +1,76 @@
+.main{
+    position: fixed;
+    width: 100%;
+    padding: 2rem 3rem;
+    z-index: 999;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logoTextDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.logoNameDiv h3{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: #FFFFFF;
+    ;
+}
+
+.navDiv,.items ,.navItem,.navBasEmo{
+    display: flex;
+    align-items: center;
+}
+
+.navDiv{
+    width: 35.563rem;
+    justify-content: space-between;
+}
+
+.navItem{
+    width: 21.125rem;
+}
+
+.items{
+   gap: 2.8rem;
+}
+
+.item a{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    color:#FFFFFF;
+
+    text-align: left;
+}
+
+.navBasEmo{
+    gap:1rem;
+    .emojiDiv{
+        height: 1rem;
+        width: 1rem;
+        img{
+            height: 1rem;
+            width: 1rem;
+        }
+    }
+
+    .basketDiv{
+        height: 2rem;
+        width: 2rem;
+        img{
+            height: 2rem;
+            width: 2rem;
+        }
+    }
+}
